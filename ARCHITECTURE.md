@@ -1,22 +1,44 @@
-# Public Architecture Overview
+# Architecture Overview
 
-ChessPlay is organized around three repository boundaries:
+## High-Level Flow
 
-## chessplay-enterprise
+Frontend (React + Vite)
+↓
+REST API + Socket.IO
+↓
+Node.js + Express
+↓
+MongoDB / PostgreSQL
+↓
+Prisma Migration Layer
 
-Private production source for frontend, backend, auth, admin, payments, referrals, database models, Socket.IO game services, automation, and deployment configuration.
+---
 
-## chessplay-showcase
+## Components
 
-Public frontend-only portfolio/demo repository. It contains safe UI and local gameplay surfaces only.
+Frontend:
+- dashboard
+- gameplay
+- premium
+- profile
+- multiplayer UI
 
-## chessplay-docs
+Backend:
+- auth
+- game engine
+- socket server
+- premium logic
+- referral logic
 
-Public documentation repository with roadmap, changelog, setup notes, security guidance, and high-level architecture.
+---
 
-## Boundary Rules
+## Deployment
 
-- Public repos may describe features at a high level.
-- Public repos must not expose backend source, database internals, admin workflows, payment internals, production secrets, or private deployment details.
-- Placeholder environment files are allowed only when they contain no real credentials.
+Frontend:
+Vercel
 
+Backend:
+Render
+
+CI/CD:
+GitHub Actions
