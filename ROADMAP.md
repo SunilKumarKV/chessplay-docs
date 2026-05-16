@@ -1,12 +1,21 @@
-# Roadmap
+# ChessPlay Roadmap
 
 ## Near Term
+- [ ] Tournament mode
+- [ ] Better AI difficulty controls
+- [ ] Friend challenges
+- [ ] Enhanced analytics
 
-- Stabilize public showcase deployment.
-- Add clean screenshots and demo links.
-- Keep production source private.
-- Document user-facing features without exposing internals.
+## Mid Term
+- [ ] Mobile app
+- [ ] Push notifications
+- [ ] Better social gameplay
 
+## Long Term
+- [ ] iOS app
+- [ ] Android app
+- [ ] Subscription expansion
+- [ ] Creator/community features
 ## Later
 
 - Improve onboarding documentation.
