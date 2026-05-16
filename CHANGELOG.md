@@ -1,7 +1,22 @@
 # Changelog
 
-## 2026-05-15
+## v1.3.0-beta.1
+- pnpm workspace migration
+- backend TypeScript migration started
+- Prisma + PostgreSQL setup added
+- production CI/CD improvements
+- documentation cleanup
 
-- Created public documentation repository structure.
-- Added public-safe setup, architecture, roadmap, privacy, and security notes.
+---
 
+## v1.3.0-beta.0
+- premium memberships
+- referral system
+- leaderboard improvements
+- profile enhancements
+
+---
+
+## v1.2.0
+- supporter features
+- UI improvements
