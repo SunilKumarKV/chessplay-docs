@@ -1,16 +1,64 @@
-# ChessPlay Docs
+# ♟️ ChessPlay Documentation
 
-Public product documentation for ChessPlay: roadmap, setup notes, public architecture overview, changelog, privacy notes, and security guidance.
+Public documentation for ChessPlay — a production-ready real-time chess platform.
 
-This repository intentionally avoids private implementation details, production secrets, internal admin workflows, database internals, payment internals, and backend source code.
+---
 
-## Contents
+## 🌐 Live Product
 
-- [Setup](SETUP.md)
-- [Architecture](ARCHITECTURE.md)
-- [Roadmap](ROADMAP.md)
-- [Changelog](CHANGELOG.md)
-- [Security](SECURITY.md)
-- [Privacy](PRIVACY.md)
-- [Contributing](CONTRIBUTING.md)
+https://chessplay1.vercel.app
 
+---
+
+## 📚 Documentation Index
+
+- [Architecture Overview](./ARCHITECTURE.md)
+- [Roadmap](./ROADMAP.md)
+- [Changelog](./CHANGELOG.md)
+- [Security Policy](./SECURITY.md)
+- [Release Notes](./RELEASES)
+
+---
+
+## Product Highlights
+
+- Real-time multiplayer chess
+- Play vs AI (Stockfish)
+- Authentication
+- Leaderboards
+- Premium memberships
+- Referral system
+- Responsive dashboard
+- Real-time sockets
+- Production deployment
+
+---
+
+## Tech Stack
+
+Frontend:
+- React
+- Vite
+- Tailwind CSS
+
+Backend:
+- Node.js
+- Express.js
+- Socket.IO
+
+Database:
+- MongoDB
+- PostgreSQL (migration)
+
+Deployment:
+- Vercel
+- Render
+- GitHub Actions
+
+---
+
+## Public Notice
+
+This repository contains public documentation only.
+
+Private backend logic, secrets, payment infrastructure, and internal implementation details are not included.
