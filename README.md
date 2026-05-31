@@ -6,7 +6,7 @@ Public documentation for ChessPlay — a production-ready real-time chess platfo
 
 ## 🌐 Live Product
 
-https://chessplay1.vercel.app
+https://getchessplay.vercel.app
 
 ---
 
@@ -47,8 +47,8 @@ Backend:
 - Socket.IO
 
 Database:
-- MongoDB
-- PostgreSQL (migration)
+- PostgreSQL
+- Prisma
 
 Deployment:
 - Vercel
@@ -61,4 +61,4 @@ Deployment:
 
 This repository contains public documentation only.
 
-Private backend logic, secrets, payment infrastructure, and internal implementation details are not included.
+Private production source code, backend internals, secrets, payment infrastructure, deployment credentials, database URLs, and implementation details are not included.
